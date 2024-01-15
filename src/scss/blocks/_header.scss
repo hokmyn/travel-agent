@@ -1,0 +1,13 @@
+.header {
+	padding: 16px 0;
+}
+.nav__icon {
+	display: none;
+
+	@include mediaMobile {
+		display: block;
+	}
+}
+
+
+

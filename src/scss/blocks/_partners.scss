@@ -1,0 +1,31 @@
+.partners {
+  padding: 60px 0;
+  @include mediaMobile {
+    padding: 30px 0;
+  }
+}
+.partners__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  @include mediaTablet {
+    flex-direction: column;
+  }
+}
+.patners__title {
+  color: var(--text-grey);
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+.partners__content {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  @include mediaLaptop {
+    gap: 20px;
+    justify-content: center;
+  }
+}
